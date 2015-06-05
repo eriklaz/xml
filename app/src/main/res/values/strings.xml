@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">xml</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_vista_individual">vista_individual</string>
+    <string name="matr">Matricula</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="curp">CURP</string>
+    <string name="email">Email</string>
+    <string name="carrera">Carrera</string>
+    <string name="turno">Turno</string>
+</resources>

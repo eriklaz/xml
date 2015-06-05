@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lazaro.xml.list_alumnos">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtmatr"
+        android:text="Matricula"
+        android:textColor="#ffff674b"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtnomb"
+        android:text="Nombre"
+        android:textColor="#ffff674b"
+
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtapell"
+        android:text="Apellidos"
+        android:textColor="#ffff674b"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtcurp"
+        android:text="CURP"
+        android:textColor="#ffff674b"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtemail"
+        android:text="Email"
+        android:textColor="#ffff674b"
+        android:paddingTop="0dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtcarr"
+        android:text="Carrera"
+        android:textColor="#ffff674b"
+        android:paddingTop="15dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txttur"
+        android:text="Turno"
+        android:textColor="#ffff674b"
+        android:paddingTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+</RelativeLayout>
+</LinearLayout>

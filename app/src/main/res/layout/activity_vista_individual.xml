@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lazaro.xml.vista_individual">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtmatr"
+        android:text="Matricula"
+        android:textColor="#ffff674b"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtnomb"
+        android:text="Nombre"
+        android:textColor="#ffff674b"
+        android:paddingTop="23dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtapell"
+        android:text="Apellidos"
+        android:textColor="#ffff674b"
+        android:paddingTop="37dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtcurp"
+        android:text="CURP"
+        android:textColor="#ffff674b"
+        android:paddingTop="53dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtemail"
+        android:text="Email"
+        android:textColor="#ffff674b"
+        android:paddingTop="65dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtcarr"
+        android:text="Carrera"
+        android:textColor="#ffff674b"
+        android:paddingTop="79dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txttur"
+        android:text="Turno"
+        android:textColor="#ffff674b"
+        android:paddingTop="92dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="3dp"/>
+
+
+</RelativeLayout>
